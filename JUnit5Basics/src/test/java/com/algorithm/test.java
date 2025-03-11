@@ -11,6 +11,9 @@ import java.util.*;
 
 public class test {
     public static void main(String[] args) {
+        StringBuilder s = new StringBuilder();
+        s.append(12);
+        s.length();
         int num = 180;
         char[] bits = String.valueOf(num).toCharArray();
         System.out.println(bits);
